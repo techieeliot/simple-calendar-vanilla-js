@@ -1,0 +1,55 @@
+.output {
+    overflow: auto;
+    height: auto;
+    padding: 1rem;
+    background: #fff;
+}
+
+.output * {
+   box-sizing: border-box;
+}
+
+.output ul {
+  padding-left: 0;
+}
+
+.output li {
+    display: block;
+    float: left;
+    width: 25%;
+    border: 2px solid white;
+    padding: 5px;
+    height: 75px;
+    background-color: #4a2db6;
+    color: white;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.a11y-label {
+    margin: 0;
+    text-align: right;
+    font-size: 0.7rem;
+    width: 98%;
+}
+
+body {
+    margin: 20px;
+    background: #000;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    padding: 30px;
+    background: #f5f9fa;
+    overflow: auto;
+    height: 90%;
+}
